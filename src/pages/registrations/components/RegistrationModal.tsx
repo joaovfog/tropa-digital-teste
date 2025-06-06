@@ -1,7 +1,7 @@
 import { format, parse } from "date-fns";
 import { useState, type FormEvent } from "react";
-import type { ModalMode, Registration } from "../../types";
-import * as S from "./styles";
+import * as S from "../../../components/modal/styles";
+import type { ModalMode, Registration } from "../../../types";
 
 interface RegistrationModalProps {
   mode: ModalMode;
